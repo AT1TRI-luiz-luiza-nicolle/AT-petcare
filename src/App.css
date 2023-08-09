@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.Nbar{
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  justify-content: center;
+}
+.link{
+  display: flex;
+  margin-right: 80px;
+}
+.pnav{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.hnav{
+  margin-right: 250px;
+}
+.bnav{
+  background-color: aqua;
+  border-radius: 30px;
+  width: 95px;
+  height: 60px;
+}
+
+
+.retangulo{
+  background-color: lightskyblue;
+  width: 700px;
+  height: 300px;
+}
