@@ -28,15 +28,23 @@
   margin-right: 250px;
 }
 .bnav{
-  background-color: aqua;
+  background-color: #86CAE5;
   border-radius: 30px;
   width: 95px;
   height: 60px;
 }
 
 
-.retangulo{
-  background-color: lightskyblue;
-  width: 700px;
-  height: 300px;
+.secao1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 500px;
+  min-width: 500px;
+  background-color:#C3E3F0;
+  margin-left: 10%;
+}
+.textosecao1{
+  max-width: 600px;
+  margin-bottom: 30px;
 }
