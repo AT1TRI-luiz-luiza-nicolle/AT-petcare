@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './Header'
+import Footer from './Footer'
 
 const Home = () => {
 return (
@@ -28,29 +29,34 @@ return (
             </div>
         </div>
 
-        <div className="secao1">
+        <div className="secao3">
             <div className="cont3">
                 <h1 className='titrede'>Acompanhe nossas redes sociais</h1>
                 <div className="redes">
-                    <div className="rede">
-                        <img src="" alt="" />
-                        <p>Facebook</p>
+                    <div className='linha1'>
+                        <div className="rede">
+                            <img src="" alt="" />
+                            <p>Facebook</p>
+                        </div>
+                        <div className="rede">
+                            <img src="" alt="" />
+                            <p>Instagram</p>
+                        </div>
                     </div>
-                    <div className="rede">
-                        <img src="" alt="" />
-                        <p>Instagram</p>
-                    </div>
-                    <div className="rede">
-                        <img src="" alt="" />
-                        <p>Twitter</p>
-                    </div>
-                    <div className="rede">
-                        <img src="" alt="" />
-                        <p>Outra</p>
+                    <div className='linha2'>
+                        <div className="rede">
+                            <img src="" alt="" />
+                            <p>Twitter</p>
+                        </div>
+                        <div className="rede">
+                            <img src="" alt="" />
+                            <p>Outra</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <Footer/>
     </div>
 )
 }

@@ -9,6 +9,9 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+body{
+  margin: 0;
+}
 
 .Nbar{
   display: flex;
@@ -74,7 +77,66 @@
   display: flex;
 }
 
-.cont3{
+.secao3{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  min-height: 250px;
+  max-width: 90%;
+  background-color:#C3E3F0;
+  margin-left: 5%;
+  border-radius: 40px;
+  margin-bottom: 60px;
+}
+.titrede{
+  display: flex;
+  justify-content: center;
+}
+.linha1{
+  display: flex;
+  justify-content: center;
+}
+.linha2{
+  display: flex;
+  justify-content: center;
+}
+.rede{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+
+.rodape{
+  display: flex;
+  background-color: #86CAE5;
+  min-height: 380px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 72px 72px 0% 0%;
+  bottom: 0px;
+  width: 100%;
+  margin: 0;
+}
+.controdape{
+  display: flex;
+}
+.logo{
+  width: 300px;
+  height: 300px;
+}
+.contf{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  /* flex-direction: column; */
+}
+.colf{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.copy{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
 }
