@@ -1,10 +1,11 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import VLibras from '@djpfs/react-vlibras'
 
 const Home = () => {
 return (
-    <div>
+    <div>      
         <Header/>
         <div className="secao1">
             <div className="cont">
