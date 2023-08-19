@@ -36,21 +36,21 @@ return (
                 <div className="redes">
                     <div className='linha1'>
                         <div className="rede">
-                            <img src="" alt="" />
+                            <img className="redeimg" src="https://www.facebook.com/images/fb_icon_325x325.png" alt="" />
                             <p>Facebook</p>
                         </div>
                         <div className="rede">
-                            <img src="" alt="" />
+                            <img className="redeimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/800px-Instagram-Icon.png" alt="" />
                             <p>Instagram</p>
                         </div>
                     </div>
                     <div className='linha2'>
                         <div className="rede">
-                            <img src="" alt="" />
+                            <img className="redeimg" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-2-1.png" alt="" />
                             <p>Twitter</p>
                         </div>
                         <div className="rede">
-                            <img src="" alt="" />
+                            <img className="redeimg" src="" alt="" />
                             <p>Outra</p>
                         </div>
                     </div>
