@@ -22,22 +22,20 @@ code {
     monospace;
 }
 
-/* .navbar-nav li a{
-  font-size: 17px;
-  box-shadow: 0 4px 14px rgb(0 0 0 / 20%);
+.bgimg{
+  background-image: url(https://cdn.discordapp.com/attachments/1062118007586959381/1142669871545589860/image_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: hard-light;
 }
-.navbar-brand{
-  letter-spacing: 3px;
-}
-
-.top{
-  box-shadow: 0 4px 14px rgb(0 0 0 / 20%);
-} */
 .Nbar{
   display: flex;
   align-items: center;
   margin-right: 30px;
   justify-content: center;
+  background: #ffffff;
+  margin-bottom: 40px;
 }
 .petlogo{
   width: 70px;
@@ -63,6 +61,33 @@ code {
 
 .secao1{
   display: flex;
+  /* justify-content: center; */
+  flex-direction: row;
+  min-height: 400px;
+  max-width: 90%;
+  background-color:#C3E3F0;
+  margin-left: 5%;
+  border-radius: 40px;
+  margin-bottom: 60px;
+}
+.cachorro{
+  width: 300px;
+  height: 250px;
+  display: flex;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+.textosecao1{
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+.cont{
+  margin-left: 5%;
+  margin-top: 80px;
+}
+
+.secao2{
+  display: flex;
   justify-content: center;
   flex-direction: column;
   min-height: 400px;
@@ -71,13 +96,6 @@ code {
   margin-left: 5%;
   border-radius: 40px;
   margin-bottom: 60px;
-}
-.textosecao1{
-  max-width: 600px;
-  margin-bottom: 50px;
-}
-.cont{
-  margin-left: 5%;
 }
 .imgcard{
   width: 200px;
@@ -90,12 +108,14 @@ code {
   background: #f1f1f1;
   box-shadow: 20px 20px 60px #bebebe,
                 -20px -20px 60px #ffffff;
-                margin-right: 250px;
+                margin-right: 150px;
+                margin-left: 100px;
 }
 .contd{
   display: flex;
   flex-direction: column;
   align-items: end;
+  text-align: end;
 }
 .cont2{
   margin-left: 5%;
@@ -130,9 +150,13 @@ code {
   margin-right: 50px;
   margin-left: 50px;
   display: flex;
+  align-items: center;
 }
 .redeimg{
+  display: flex;
   width: 30px;
+  height: 30px;
+  align-items: center;
 }
 
 
@@ -193,4 +217,25 @@ code {
 a{
   text-decoration: none;
   color: #000000;
+}
+
+.tecno{
+  margin-top: 80px;
+  margin-bottom: 70px;
+  margin-left: 70px;
+  margin-right: 180px;
+}
+.conttecno{
+  display: flex;
+}
+.textotecno{
+  margin-left: 220px;
+  max-width: 600px;
+  text-align: end;
+}
+.diego{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  text-align: end;
 }

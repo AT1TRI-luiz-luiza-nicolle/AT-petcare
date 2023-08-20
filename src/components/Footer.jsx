@@ -10,28 +10,28 @@ return (
                     <div className="contf">
                         <div className="colf">
                             <p>Sobre</p>
-                            <p>lorem</p>
-                            <p>lorem</p>
-                            <p>lorem</p>
+                            <p>Home</p>
+                            <p>Como surgiu</p>
+                            <p>Criadores</p>
                         </div>
                         <div className="colf">
-                            <p>lorem</p>
-                            <p>lorem</p>
-                            <p>lorem</p>
+                            <p>Quem somos</p>
+                            <p>denúncias</p>
+                            <p>Direitos</p>
                         </div>
                         <div className="colf">
                             <p>Mais</p>
-                            <p>lorem</p>
-                            <p>lorem</p>
-                            <p>lorem</p>
+                            <p>Contato</p>
+                            <p>Agendar</p>
+                            <p>Local</p>
                         </div>
                         <div className="colf">
-                            <p>lorem</p>
-                            <p>lorem</p>
-                            <p>lorem</p>
+                            <p>Doação</p>
+                            <p>Desejos</p>
+                            <p>Espécies</p>
                         </div>
                     </div>
-                    <p className='teste'>copyrigth teste legal legal</p>
+                    <p className='teste'>© 2023 Copyright   -   Luiz Aragão, Luiza Ribeiro, Nicolle Américo</p>
                 </div>
             </div>
         </div>
