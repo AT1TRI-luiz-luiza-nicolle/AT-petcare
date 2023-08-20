@@ -10,7 +10,7 @@ return (
         <div className="secao1">
             <div className="cont">
                 <h1>Cuidando com amor do seu pet</h1>
-                <p className='textosecao1'>Bem-vindo à PawGuard, uma ONG apaixonada por proteger e promover o bem-estar dos nossos amigos de quatro patas. Nós acreditamos que a conexão entre humanos e animais é uma ponte de amor e responsabilidade, e é por isso que nos dedicamos a fornecer o melhor cuidado possível por meio da inovação.</p>
+                <p className='textosecao1'>Bem-vindo à PetCare, uma ONG apaixonada por proteger e promover o bem-estar dos nossos amigos de quatro patas. Nós acreditamos que a conexão entre humanos e animais é uma ponte de amor e responsabilidade, e é por isso que nos dedicamos a fornecer o melhor cuidado possível por meio da inovação.</p>
                 {/* <button className='bnav'>Agendar</button> */}
             </div>
             <div className="dog">
